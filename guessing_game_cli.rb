@@ -2,7 +2,7 @@
 def run_guessing_game
   answer = rand(6) + 1
   
-  puts "Guess a number between 1 and 6."
+  p "Guess a number between 1 and 6."
   input = gets.chomp
   
   if input == answer
