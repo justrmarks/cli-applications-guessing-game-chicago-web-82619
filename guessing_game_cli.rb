@@ -1,6 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   answer = rand(6) + 1
+  p answer
   
   p "Guess a number between 1 and 6."
   input = gets
